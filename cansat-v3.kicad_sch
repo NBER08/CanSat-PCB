@@ -4472,6 +4472,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:SRV05-4"
 			(pin_names
 				(offset 0)
@@ -11237,6 +11344,12 @@
 		(uuid "0059b265-5048-4fb6-8998-446c639e74d3")
 	)
 	(junction
+		(at 492.76 278.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00cea2c4-476b-4f30-86c0-4c644eaac740")
+	)
+	(junction
 		(at 869.95 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11301,6 +11414,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c6013a7-c963-492c-84ce-b68abe732a85")
+	)
+	(junction
+		(at 487.68 278.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dfbdea9-474b-4900-a211-417395e6f850")
 	)
 	(junction
 		(at 236.22 340.36)
@@ -11645,6 +11764,12 @@
 		(uuid "a3475a6a-9496-4024-ab67-339ebb6d553f")
 	)
 	(junction
+		(at 497.84 278.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a41dd69e-9c8f-499d-9815-32837d598b34")
+	)
+	(junction
 		(at 187.96 285.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11879,12 +12004,20 @@
 		(uuid "a2840598-34b6-4e21-b5a1-4d0a59adcf04")
 	)
 	(no_connect
+		(at 105.41 149.86)
+		(uuid "afe6c6b6-f1ed-4aee-8a5d-1b35061a59b7")
+	)
+	(no_connect
 		(at 351.79 72.39)
 		(uuid "cfb8cde2-77ea-4b80-847a-551624a1ff47")
 	)
 	(no_connect
 		(at 271.78 99.06)
 		(uuid "e0276a74-bd78-4430-bcad-106f158cbe2e")
+	)
+	(no_connect
+		(at 105.41 152.4)
+		(uuid "e45871e6-eaf2-475f-ac36-d4f09c4e3f73")
 	)
 	(no_connect
 		(at 233.68 370.84)
@@ -12976,6 +13109,16 @@
 	)
 	(wire
 		(pts
+			(xy 497.84 278.13) (xy 502.92 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3e6d14-2897-44bc-83e9-4b0052f6c6b5")
+	)
+	(wire
+		(pts
 			(xy 229.87 279.4) (xy 233.68 279.4)
 		)
 		(stroke
@@ -14006,6 +14149,16 @@
 	)
 	(wire
 		(pts
+			(xy 492.76 278.13) (xy 497.84 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f7bab5-23f7-439c-8178-43212d5e38d0")
+	)
+	(wire
+		(pts
 			(xy 351.79 80.01) (xy 349.25 80.01)
 		)
 		(stroke
@@ -14756,6 +14909,16 @@
 	)
 	(wire
 		(pts
+			(xy 487.68 278.13) (xy 492.76 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb294382-6167-458c-a332-dbe9dcd5bfe1")
+	)
+	(wire
+		(pts
 			(xy 73.66 306.07) (xy 73.66 287.02)
 		)
 		(stroke
@@ -15066,7 +15229,7 @@
 	)
 	(global_label "BNO055_SDA"
 		(shape bidirectional)
-		(at 139.7 157.48 0)
+		(at 105.41 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15076,7 +15239,29 @@
 		)
 		(uuid "06ac8276-cb7c-4b64-8bdc-173d8936cc52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.8917 157.48 0)
+			(at 121.6017 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPS_TX"
+		(shape bidirectional)
+		(at 105.41 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "073e4c68-c1fa-4372-9768-da4a3f8d5151")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.4007 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15088,7 +15273,7 @@
 	)
 	(global_label "INA219_SCL"
 		(shape bidirectional)
-		(at 139.7404 138.43 0)
+		(at 105.41 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15098,7 +15283,7 @@
 		)
 		(uuid "0817e2d2-2b7d-463e-92fe-a4b230ad196f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.9645 138.43 0)
+			(at 120.6341 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15154,22 +15339,22 @@
 	)
 	(global_label "USB_D-"
 		(shape bidirectional)
-		(at 271.78 359.41 180)
+		(at 297.18 364.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0e646821-b997-47a6-b8a0-0bd87f89e328")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.0635 359.41 0)
+			(at 308.8965 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15308,7 +15493,7 @@
 	)
 	(global_label "SCD40_SCL"
 		(shape bidirectional)
-		(at 137.16 102.87 0)
+		(at 105.41 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15318,7 +15503,7 @@
 		)
 		(uuid "23dbc579-4432-4a29-abc6-c73f94efd9ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.9002 102.87 0)
+			(at 120.1502 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15374,7 +15559,7 @@
 	)
 	(global_label "AS7331_SDA"
 		(shape bidirectional)
-		(at 139.7 83.82 0)
+		(at 105.41 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15384,7 +15569,7 @@
 		)
 		(uuid "30540117-2dcc-43c0-8c2a-3adaffb4be0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.4683 83.82 0)
+			(at 121.1783 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15418,7 +15603,7 @@
 	)
 	(global_label "SD_CLK"
 		(shape bidirectional)
-		(at 139.7 115.57 0)
+		(at 105.41 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15428,7 +15613,7 @@
 		)
 		(uuid "3436192d-a664-4303-a74e-473b9e841571")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.8117 115.57 0)
+			(at 116.5217 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15439,8 +15624,8 @@
 		)
 	)
 	(global_label "LoRa_TX"
-		(shape input)
-		(at 138.43 180.34 0)
+		(shape bidirectional)
+		(at 105.41 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15450,7 +15635,7 @@
 		)
 		(uuid "36a4ecb8-3a04-4495-aa4e-5c60b47da7e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.156 180.34 0)
+			(at 117.2473 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15462,7 +15647,7 @@
 	)
 	(global_label "COMPASS_SCL"
 		(shape bidirectional)
-		(at 137.16 165.1 0)
+		(at 105.41 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15472,7 +15657,7 @@
 		)
 		(uuid "3bd826fd-39f4-4343-828f-d9409eb435f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.5612 165.1 0)
+			(at 122.8112 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15506,29 +15691,29 @@
 	)
 	(global_label "USB_D+"
 		(shape bidirectional)
-		(at 297.18 364.49 0)
+		(at 271.78 359.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3fbb0707-98a0-4ae6-acbc-b9fcbf5d38fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.8965 364.49 0)
+			(at 260.0635 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "BNO055_SCL"
 		(shape bidirectional)
-		(at 139.7 160.02 0)
+		(at 105.41 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15538,7 +15723,7 @@
 		)
 		(uuid "4b031a8e-7bd3-41a5-afec-a8d051898232")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.8312 160.02 0)
+			(at 121.5412 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15550,7 +15735,7 @@
 	)
 	(global_label "SD_MOSI"
 		(shape bidirectional)
-		(at 139.7 107.95 0)
+		(at 105.41 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15560,29 +15745,7 @@
 		)
 		(uuid "4c5a8f88-d1d5-4942-b66c-b0069a051ee0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.8398 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VEML6075_SDA"
-		(shape bidirectional)
-		(at 137.16 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "51190cc3-b805-4fdd-9727-a202a693dc08")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.3473 125.73 0)
+			(at 117.5498 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15594,7 +15757,7 @@
 	)
 	(global_label "SD_CS"
 		(shape bidirectional)
-		(at 139.7 105.41 0)
+		(at 105.41 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15604,7 +15767,7 @@
 		)
 		(uuid "591b5cd6-793b-44c5-a563-340759993939")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.7231 105.41 0)
+			(at 115.4331 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15616,7 +15779,7 @@
 	)
 	(global_label "SD_MISO"
 		(shape bidirectional)
-		(at 139.7 120.65 0)
+		(at 105.41 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15626,7 +15789,7 @@
 		)
 		(uuid "5ccc315d-f5e4-4dee-b0d8-e4b7106598c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.8398 120.65 0)
+			(at 117.5498 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15704,7 +15867,7 @@
 	)
 	(global_label "LoRa_RST"
 		(shape input)
-		(at 138.43 187.96 0)
+		(at 105.41 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15714,7 +15877,7 @@
 		)
 		(uuid "772a7b88-98b2-4c8c-936b-f57233748cd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.426 187.96 0)
+			(at 117.406 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15748,7 +15911,7 @@
 	)
 	(global_label "COMPASS_SDA"
 		(shape bidirectional)
-		(at 137.16 167.64 0)
+		(at 105.41 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15758,7 +15921,7 @@
 		)
 		(uuid "8a4d3dd5-04cc-4b33-a2f1-1a12a926b067")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.6217 167.64 0)
+			(at 122.8717 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15770,7 +15933,7 @@
 	)
 	(global_label "BME680_SCL"
 		(shape bidirectional)
-		(at 138.43 91.44 0)
+		(at 105.41 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15780,7 +15943,7 @@
 		)
 		(uuid "8b25604c-e312-4157-a14a-92d05026d6d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.5006 91.44 0)
+			(at 121.4806 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15856,6 +16019,28 @@
 			)
 		)
 	)
+	(global_label "TSL2591_SDA"
+		(shape bidirectional)
+		(at 105.41 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a34bd94-b839-405d-96be-3d6131b98113")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.0854 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWR_EN"
 		(shape output)
 		(at 280.67 321.31 180)
@@ -15880,7 +16065,7 @@
 	)
 	(global_label "AS7331_SCL"
 		(shape bidirectional)
-		(at 139.7 86.36 0)
+		(at 105.41 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15890,7 +16075,7 @@
 		)
 		(uuid "a0538222-0a5b-416f-8ff0-22403b2d34d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.4078 86.36 0)
+			(at 121.1178 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16012,7 +16197,7 @@
 	)
 	(global_label "USB_D+"
 		(shape bidirectional)
-		(at 140.97 149.86 0)
+		(at 105.41 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16022,7 +16207,7 @@
 		)
 		(uuid "c0b835ab-2443-4e28-a38d-e248af399067")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.6865 149.86 0)
+			(at 117.1265 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16034,7 +16219,7 @@
 	)
 	(global_label "SCD40_SDA"
 		(shape bidirectional)
-		(at 137.16 100.33 0)
+		(at 105.41 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16044,7 +16229,7 @@
 		)
 		(uuid "ca1d6971-1d7b-4bae-b528-f1dca6a7dc34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.9607 100.33 0)
+			(at 120.2107 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16056,7 +16241,7 @@
 	)
 	(global_label "BME680_SDA"
 		(shape bidirectional)
-		(at 138.43 96.52 0)
+		(at 105.41 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16066,7 +16251,29 @@
 		)
 		(uuid "cdc05178-fbd9-4697-ba5b-4cf865712004")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.5611 96.52 0)
+			(at 121.5411 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TSL2591_SCL"
+		(shape bidirectional)
+		(at 105.41 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d044c144-1881-4c89-95e4-e763bc5b9831")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.0249 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16077,8 +16284,8 @@
 		)
 	)
 	(global_label "GPS_RX"
-		(shape input)
-		(at 137.16 176.53 0)
+		(shape bidirectional)
+		(at 105.41 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16088,7 +16295,7 @@
 		)
 		(uuid "d27aeb7a-2768-466c-8667-7370835f5a46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.3418 176.53 0)
+			(at 116.7031 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16099,8 +16306,8 @@
 		)
 	)
 	(global_label "BNO055_RST"
-		(shape input)
-		(at 140.97 153.67 0)
+		(shape output)
+		(at 105.41 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16110,7 +16317,7 @@
 		)
 		(uuid "d2ced545-7ff2-41b7-ab56-5281d8d85f81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.9294 153.67 0)
+			(at 120.3694 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16144,7 +16351,7 @@
 	)
 	(global_label "INA219_SDA"
 		(shape bidirectional)
-		(at 139.7 135.89 0)
+		(at 105.41 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16154,29 +16361,7 @@
 		)
 		(uuid "d508fb50-0b57-42b6-936a-5f433c7036d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.9846 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VEML6075_SCL"
-		(shape bidirectional)
-		(at 137.16 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d73b37ae-d397-45e9-944e-24a13b6cfb3c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.2868 129.54 0)
+			(at 120.6946 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16231,8 +16416,8 @@
 		)
 	)
 	(global_label "LoRa_RX"
-		(shape input)
-		(at 138.43 182.88 0)
+		(shape bidirectional)
+		(at 105.41 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16242,7 +16427,7 @@
 		)
 		(uuid "e9e2d251-f7df-4199-ad09-1d5a9b6f3991")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.4584 182.88 0)
+			(at 117.5497 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16320,7 +16505,7 @@
 	)
 	(global_label "USB_D-"
 		(shape bidirectional)
-		(at 140.97 144.78 0)
+		(at 105.41 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16330,7 +16515,7 @@
 		)
 		(uuid "f99d8e50-a1d5-4990-bbca-18675fe2e3ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.6865 144.78 0)
+			(at 117.1265 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18138,6 +18323,74 @@
 			(project "cansat-v3"
 				(path "/cefcab75-e20e-43fc-92fb-b812d317b181"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 487.68 278.13 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1687443a-2b95-4f3b-aecb-810cc4eb1e9c")
+		(property "Reference" "#PWR081"
+			(at 487.68 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 487.68 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 487.68 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 487.68 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 487.68 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22ffa8b0-ae28-4d61-b3b4-1cd3b90754d3")
+		)
+		(instances
+			(project "cansat-v3"
+				(path "/cefcab75-e20e-43fc-92fb-b812d317b181"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -20648,6 +20901,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 502.92 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "447ad51f-e9e5-4c4f-85dd-af7cb0bec868")
+		(property "Reference" "H4"
+			(at 501.65 271.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 505.46 275.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad"
+			(at 502.92 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 502.92 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 502.92 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7647927d-471a-40de-9a48-9c8a2ec28b7a")
+		)
+		(instances
+			(project "cansat-v3"
+				(path "/cefcab75-e20e-43fc-92fb-b812d317b181"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 72.39 66.04 0)
 		(unit 1)
@@ -22950,6 +23270,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 497.84 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "664d18e1-b807-47f8-a54c-8418d31e837c")
+		(property "Reference" "H3"
+			(at 496.57 271.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 500.38 275.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad"
+			(at 497.84 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 497.84 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 497.84 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6df43d46-0523-4f00-9538-bf50ca2cc642")
+		)
+		(instances
+			(project "cansat-v3"
+				(path "/cefcab75-e20e-43fc-92fb-b812d317b181"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 529.59 125.73 0)
 		(unit 1)
@@ -23851,6 +24238,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 487.68 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7aa7c763-790d-49a7-b7b2-6724d6de07a4")
+		(property "Reference" "H1"
+			(at 486.41 271.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 490.22 275.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad"
+			(at 487.68 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 487.68 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 487.68 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6e94d2d-e42b-44b0-bffc-2cbd4f4bde68")
+		)
+		(instances
+			(project "cansat-v3"
+				(path "/cefcab75-e20e-43fc-92fb-b812d317b181"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 100.33 281.94 270)
 		(mirror x)
@@ -24047,6 +24501,73 @@
 			(project "cansat-v3"
 				(path "/cefcab75-e20e-43fc-92fb-b812d317b181"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 492.76 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "85c930b3-65b8-4ab9-b08a-d04184cba47e")
+		(property "Reference" "H2"
+			(at 491.49 271.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 495.3 275.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad"
+			(at 492.76 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 492.76 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 492.76 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c499e665-cd98-44ec-9f88-ef7b8f6dd90a")
+		)
+		(instances
+			(project "cansat-v3"
+				(path "/cefcab75-e20e-43fc-92fb-b812d317b181"
+					(reference "H2")
 					(unit 1)
 				)
 			)
